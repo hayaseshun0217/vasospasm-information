@@ -1,0 +1,1336 @@
+@charset "UTF-8";
+
+/*------------------------------------------
+  header
+------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .headerTtl {
+    height: auto;
+    color: #fff;
+    padding: 0;
+    position: static;
+    background: none;
+  }
+
+}
+
+
+/*------------------------------------------
+  topBox01
+------------------------------------------*/
+
+.topBox01 {
+  margin-bottom: 35px;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.topBox01Inner {
+  padding: 15px 0 30px;
+  /*max-width: 1230px;*/
+  background: url(img/bg/bg_top01_pc.png) no-repeat center;
+  background-size: cover;
+}
+.topBox01Inner .inner {
+position:relative;
+}
+.mv_graph_wrapper {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+background-color: rgba(255,255,255,0.8);
+    padding: 10px 20px;
+}
+.mv_graph_wrapper .mv_title {
+font-weight:bold;
+}
+.mv_graph_wrapper .caption {
+font-size:12px;
+}
+
+
+.topBox01 .txtBox {
+  width: 470px;
+  margin: 0 auto 0 0;
+}
+
+.topBox01 .ttlBox {
+  padding: 50px 0 40px 20px;
+  margin-bottom: 17px;
+  background: url(img/bg/bg_line01.png) no-repeat left top, url(img/bg/bg_line01.png) no-repeat left bottom;
+  background-size: auto 15px;
+}
+
+.topBox01 .ttlBox .subTtl {
+  color: #808080;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.topBox01 .ttlBox .ttl {
+  color: #e54166;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 768px) {
+
+  .topBox01 {
+    margin: 0 auto 30px;
+    border-bottom: none;
+  }
+
+  .topBox01 .inner {
+    padding: 0;
+  }
+
+  .topBox01 img {
+    display: block;
+    width: 100%;
+  }
+
+  .topBox01Inner {
+    padding:  0;
+    background: none;
+  }
+
+.mv_graph_wrapper {
+    position: absolute;
+    bottom: auto;
+    right: 0px;
+    left: 0px;
+    margin-top: -80px;
+    display: block;
+}
+
+  .topBox01 .txtBox {
+    width: 100%;
+    padding: 0px 10px 0;
+    margin: 0 auto;
+  }
+
+  .topBox01 .ttlBox {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 -10px 10px;
+    background: url(img/bg/bg_line01.png) no-repeat center top, url(img/bg/bg_line01.png) no-repeat center bottom;
+    background-size: 100% 15px;
+  }
+
+  .topBox01 .ttlBox .subTtl {
+    margin-bottom: 10px;
+  }
+
+  .topBox01 .ttlBox .ttl {
+    font-size: 24px;
+  }
+
+}
+
+
+/*------------------------------------------
+  .topBox03
+------------------------------------------*/
+
+.topBox03 {
+  padding: 18px 50px;
+  margin-bottom: 90px;
+  background: url(img/bg/bg_top02.png);
+  border-radius: 5px;
+}
+
+.topBox03 .ttl {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.topBox03 ul {
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.topBox03 li {
+  color: #fff;
+  font-size: 16px;
+  border-top: 2px dotted #fff;
+  width: 48%;
+  display: flex;
+    -webkit-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topBox03 li a {
+  display: block;
+  padding: 17px 30px 17px 12px;
+  background: url(img/ico/ico_arrow05.png) no-repeat 98% center;
+  background-size: 15px;
+}
+.topBox03 li a:hover{
+filter: alpha(opacity=60);
+     -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.topBox03 .special {
+  font-weight: bold;
+}
+
+.topBox03 .special a {
+  position: relative;
+}
+
+.topBox03 .special a:before {
+  content: "SPECIAL CONTENTS";
+  color: #988d56;
+  display: block;
+  width: 175px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 2px;
+  background: #f9d002;
+  position: absolute;
+  left: 0;
+  top: -13px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .topBox03 {
+    width: auto !important;
+    padding: 18px 10px 5px;
+    margin: 0 10px 50px;
+  }
+
+  .topBox03 ul {
+    display: block;
+  }
+
+  .topBox03 li {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .topBox03 li a {
+    padding: 12px 20px 12px 5px;
+  }
+
+  .topBox03 .special a:before {
+    display: table;
+    width: auto;
+    padding: 2px 13px;
+    font-size: 12px;
+    position: static;
+    margin-bottom: 8px;
+  }
+
+}
+
+
+/*------------------------------------------
+  .topBox04
+------------------------------------------*/
+
+.topBox04 {
+  padding: 25px 30px 50px;
+  margin-bottom: 70px;
+  background: url(img/bg/bg_beige.png);
+  background-size: 75px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.topBox04Inner {
+  padding-top: 20px;
+  background: url(img/ico/ico_branch01.png) no-repeat center top;
+  background-size: 160px;
+}
+
+.topBox04 .modTag01 {
+  margin-bottom: 25px;
+}
+
+.topBox04 .modTtl01 {
+  width: 52%;
+  margin-bottom: 20px;
+}
+
+.topBox04 .half {
+  width: 52%;
+  margin-bottom: 30px;
+}
+
+.topBox04 .imgBox {
+  width: 40%;
+  max-width: 300px;
+  height: auto;
+  position: absolute;
+  top: 43px;
+  right: 27px;
+  margin: 0;
+}
+.topBox04 .imgBox .caption {
+font-size:12px;
+color:#666;
+line-height:1.2em;}
+
+@media screen and (max-width: 768px) {
+
+  .topBox04 {
+    padding: 47px 0 15px;
+    margin: 0 -10px 20px;
+    border-radius: 0;
+  }
+
+  .topBox04Inner {
+    padding: 0 13px;
+    background-position: right -20px top;
+  }
+
+  .topBox04 .modTag01 {
+    margin-bottom: 15px;
+  }
+
+  .topBox04 .modTtl01 {
+    width: 100%;
+  }
+
+  .topBox04 .half {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .topBox04 .imgBox {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    position: static;
+    margin:0 auto 20px;
+  }
+
+}
+
+
+/*------------------------------------------
+  binderBoxInner
+------------------------------------------*/
+
+.binderBoxInner {
+  padding: 50px 50px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .binderBoxInner {
+    padding: 35px 12px 40px;
+  }
+}
+
+
+/*------------------------------------------
+  topBox05
+------------------------------------------*/
+
+.topBox05 {
+  /*max-width: 660px;*/
+  padding: 35px 20px 20px;
+  margin-bottom: 80px;
+  background: #f9f7fa;
+  border-radius: 5px;
+}
+
+.topBox05 .modTtl01 {
+  margin-bottom: 30px;
+}
+
+.topBox05 .subBox {
+  min-height: 250px;
+  padding: 23px;
+  background: #fff;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.topBox05 .subBox .ttl {
+  color: #808080;
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 5px 0 5px 10px;
+  margin-bottom: 20px;
+  border-left: 5px solid #7bbcc4;
+}
+
+.topBox05 .subBox .txt {
+}
+
+.topBox05 .subBox .imgBox {
+  /*float: right;
+  max-width: 270px;
+  width: 45%;*/
+  /*height: 240px;*/
+  /*margin: 0 0 15px 30px;*/
+  text-align:center;
+  padding-bottom:20px;
+}
+.topBox05 .subBox2 .imgBox {
+  height: auto;
+  padding-bottom:0px;
+}
+.topBox05 .subBox .imgBox .caption {
+font-size:12px;
+color:#808080;
+}
+
+.topBox05 .subBox .imgBox p {
+margin-bottom:10px;}
+
+.topBox05 .subBox3 {
+  background:  url(img/ico/ico_carchair.png) #ffffff no-repeat 95% 0px;
+  background-size: 100px;
+
+}
+.topBox05 .subBox.subBox3 .ttl {
+width:auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .topBox05 {
+    max-width: none;
+    padding: 30px 0 0;
+    margin: 0 -10px 30px;
+    border-radius: 0;
+  }
+
+  .topBox05 .modTtl01 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .topBox05 .subBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0px 10px 10px;
+    margin-bottom: 0;
+  }
+
+  .topBox05 .subBox .ttl {
+    /*order: 1;*/
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .topBox05 .subBox .modTxt02 {
+  /*order: 2;*/
+  }
+
+  .topBox05 .subBox .txt {
+    /*order: 4;*/
+    width: 100%;
+  }
+
+  .topBox05 .subBox .imgBox {
+    float: none;
+    /*order: 3;*/
+    margin: 20px 0 15px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: static;
+  }
+.topBox05 .subBox2 .imgBox {
+    height: auto;
+
+}
+
+.topBox05 .subBox3 {
+    background-position: 99% 10px;
+    background-size: 80px;
+}
+
+
+
+}
+
+
+/*------------------------------------------
+  topBox06
+------------------------------------------*/
+
+
+.topBox06 .imgBox {
+overflow: hidden;
+    width: 40%;
+    float: right;
+    margin: 0 0 10px 20px;}
+
+@media screen and (max-width: 768px) {
+.topBox06 .imgBox {
+     width: auto;
+    float: none;
+    margin: 0 0 20px 0px;
+}
+}
+
+
+/*------------------------------------------
+  topBox07
+------------------------------------------*/
+
+.topBox07 {
+  margin-bottom: 90px;
+  background: url(img/bg/bg_beige.png);
+  background-size: 75px;
+  border-radius: 0 0 5px 5px;
+  border-top: 2px solid #e54166;
+  position: relative;
+}
+
+.topBox07Inner {
+  padding: 38px 30px 50px;
+  background: url(img/ico/ico_branch02.png) no-repeat right top;
+  background-size: 218px;
+}
+
+.topBox07 .modTag01 {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+}
+
+.topBox07 .modTtl01 {
+  margin-bottom: 20px;
+}
+
+.topBox07 .imgBaWrap .imgBox:before {
+  content: none;
+}
+
+.topBox07 .movieBoxWrap {
+  margin-bottom: 20px;
+}
+
+.topBox07 .imgBox07_2 {
+float: left;
+    width: 48%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .topBox07 {
+    margin: 0 -10px 50px;
+    border-radius: 0;
+  }
+
+  .topBox07Inner {
+    padding: 40px 13px 60px;
+  }
+
+.topBox07 .imgBox07_2 {
+    float: none;
+    width: 100%;
+}
+
+}
+
+
+/*------------------------------------------
+  topBox08
+------------------------------------------*/
+
+
+#plink4 {
+position: relative;
+}
+#plink4 .modTtl01 {
+    text-align: left!important;
+    padding-left: 20px;
+}
+#plink4 i {
+    width: 180px;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+
+.topBox08 {
+  max-width: 660px;
+  margin-bottom: 40px;
+}
+
+.topBox08 .modTtl04 {
+  margin-bottom: 30px;
+}
+
+.topBox08 .floatWrap {
+  margin-bottom: 30px;
+}
+
+.topBox08 .floatWrap .txtBox {
+  width: 51%;
+  float: right;
+}
+
+.topBox08 .floatWrap img {
+  width: 48%;
+  max-width: 279px;
+  float: left;
+  margin: 5px 0 30px 0;
+}
+
+.topBox08 .movieBoxWrap {
+  margin: 40px auto 35px;
+}
+
+@media screen and (max-width: 768px) {
+
+#plink4 i {
+display:none;
+    width: 180px;
+    top: -10px;
+}
+#plink4 h2 {
+    padding-left: 0px;
+}
+#plink4 .modTtl01 {
+    padding-left: 0px;
+}
+
+  .topBox08 {
+    max-width: none;
+  }
+
+  .topBox08 .floatWrap .txtBox {
+    width: 100%;
+    float: none;
+  }
+
+  .topBox08 .floatWrap img {
+    width: auto;
+    float: none;
+    display: block;
+    margin: 30px auto 10px;
+  }
+
+  .topBox08 .movieBoxWrap {
+    margin: 30px auto 15px;
+  }
+
+
+}
+
+
+/*------------------------------------------
+  .topBox09
+------------------------------------------*/
+
+.topBox09 {
+  margin-bottom: 70px;
+  background: url(img/bg/bg_beige.png);
+  background-size: 75px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.topBox09Inner {
+  padding: 50px 30px 50px;
+  background: url(img/ico/ico_branch03.png) no-repeat right 70px;
+  background-size: 230px;
+}
+
+.topBox09 .modTag01 {
+  margin-bottom: 10px;
+}
+
+.topBox09 .modTtl01 {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 769px) {
+  .topBox09 .imgList:nth-of-type(n+4) {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topBox09 {
+    margin: 0 -10px 30px;
+    border-radius: 0;
+  }
+
+  .topBox09Inner {
+    padding: 50px 13px;
+    background-position: right 30px;
+  }
+
+}
+
+
+/*------------------------------------------
+  topBox10
+------------------------------------------*/
+
+
+.topBox10 .modTtl01 {
+  margin-bottom: 30px;
+}
+
+.kyoujyu_fukidashi_wrapper {
+    border: 1px dashed #808080;
+    border-radius: 5px;
+    padding:20px;
+        margin-bottom: 30px;
+    margin-left: 100px;
+    }
+.kyoujyu_fukidashi_wrapper .imgBox {    width: 105px;
+    height: 105px;
+    float: left;
+    border: 2px solid #e54166;
+    border-radius: 50%;
+    overflow: hidden;
+margin: -40px 18px 0 -120px;
+}
+.kyoujyu_fukidashi_wrapper .modTxt01 {}
+.kyoujyu_fukidashi_wrapper .txt {}
+
+.topBox10 .modTtlBox02 {
+  margin-bottom: 20px;
+}
+.topBox10 .modTtlBox02 .modTtlBox02Inner {
+position: relative;
+}
+.topBox10 .modTtlBox02 .modTtlBox02Inner i {
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+.topBox10 .modTtl02 {
+text-align: left;
+    font-size: 24px;
+  /*text-align: center;*/
+  position: relative;
+}
+
+.topBox10 .modTtl02:before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: url(img/ico/ico_point.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -58px;
+  margin: auto;
+}
+.topBox10 .imgList {
+/*display:inline-block;*/
+}
+.topBox10 .subBox {
+  /* padding-right: 48%; */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.topBox10 .caption {
+color:#666;
+margin-bottom:20px;
+}
+/*
+.topBox10 .subBox img {
+  float: right;
+  display: block;
+  /* position: absolute; */
+  /* max-width: 300px;
+  width: 43%; */
+  /* right: 30px;
+  top: -40px; */
+  /*margin: -40px 0 15px 15px;
+}*/
+
+.topBox10 .subBox .txt {
+  margin-bottom: 30px;
+}
+
+.mondaitenTtl {
+  color: #585757;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 10px;
+  margin: 30px auto 25px;
+  background: #eee19d;
+  position: relative;
+}
+
+.mondaitenTtl span {
+  display: block;
+  color: #e54166;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-shadow:  1px 1px 0 #eee19d,
+                -1px 1px 0 #eee19d,
+                1px -1px 0 #eee19d,
+                -1px -1px 0 #eee19d;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  margin: auto;
+}
+
+
+/*
+  mondaitenBox
+---------------------------*/
+
+.mondaitenBoxWrap {
+  margin-bottom: 40px;
+}
+
+.mondaitenBox {
+  width: 47%;
+}
+
+.mondaitenBox img {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+.kyoujyu_fukidashi_wrapper {
+    margin-left: 0px;
+}
+.kyoujyu_fukidashi_wrapper .imgBox {
+    float: none;
+    margin: -40px auto 10px;
+}
+.topBox10 .modTtl02 {
+    font-size: 18px;
+}
+.topBox10 .modTtlBox02 .modTtlBox02Inner i {
+    width: 80px;
+    top: auto;
+    right: 0px;
+    bottom: -20px;
+}
+
+
+  .topBox10 .subBox {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: static;
+  }
+
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .order3 {
+    order: 3;
+  }
+  .order4 {
+    order: 4;
+  }
+/*
+  .topBox10 .subBox img {
+    float: none;
+    position: static;
+    margin: 30px auto;
+    max-width: 320px;
+    width: 100%;
+  }*/
+
+  .topBox10 .subBox .txt {
+    margin-bottom: 0;
+  }
+
+  .mondaitenTtl {
+    text-align: left;
+    margin: 20px auto 25px;
+  }
+
+  .mondaitenTtl span {
+    left: 10px;
+  }
+
+
+  /*
+    mondaitenBox
+  ---------------------------*/
+
+  .mondaitenBoxWrap {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .mondaitenBox {
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+
+  .mondaitenBox img {
+    margin-bottom: 20px;
+  }
+
+
+
+
+}
+
+
+/*------------------------------------------
+  topBox11
+------------------------------------------*/
+
+.topBox11 {
+  padding-bottom: 75px;
+  margin-bottom: 80px;
+  /*background: url(img/bg/bg_beige.png);*/
+  background-size: 75px;
+  border-radius: 5px;
+}
+
+.topBox11 .modTtlBox02 {
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.topBox11 .modTtl02 {
+  text-align: center;
+  position: relative;
+}
+
+.topBox11 .modTtl02:before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: url(img/ico/ico_point.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -58px;
+  margin: auto;
+}
+
+.topBox11Inner {
+  padding: 30px 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .topBox11 {
+    padding-bottom: 0;
+    margin: 0 -10px 50px;
+    border-radius: 0;
+  }
+
+  .topBox11 .modTtlBox02 {
+    margin: 0 auto 20px;
+    border-radius: 0;
+  }
+
+  .topBox11Inner {
+    padding: 0 10px;
+  }
+}
+
+
+/*------------------------------------------
+  topBox12
+------------------------------------------*/
+
+.topBox12 .modTtl04 {
+  margin-bottom: 30px;
+}
+
+.topBox12 .floatWrap > * {
+  width: 47.5%;
+}
+
+.topBox12 .floatWrap img {
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .topBox12Inner {
+    margin-bottom: 0;
+  }
+  .topBox12 .floatWrap {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .topBox12 .floatWrap > * {
+    width: 100%;
+  }
+
+  .topBox12 .floatWrap img {
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+
+  .topBox12 .searchBox {
+    margin-bottom: 0;
+  }
+}
+
+
+/*------------------------------------------
+  topBox13
+------------------------------------------*/
+
+.topBox13 {
+  padding: 60px 0 40px;
+  margin-bottom: 90px;
+  background: url(img/bg/bg_beige.png);
+  background-size: 75px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.topBox13Inner {
+  padding: 0 30px;
+  background: url(img/ico/ico_branch04.png) no-repeat right top;
+  background-size: 230px;
+}
+
+.topBox13 .modTag01 {
+  margin-bottom: 20px;
+}
+
+.topBox13 .modTtl01 {
+  margin-bottom: 25px;
+}
+
+/*
+  nariyasui
+---------------------------*/
+
+.nariyasuiWrap {
+  padding: 28px 20px 0;
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.nariyasuiTtl {
+  display: table;
+  color: #808080;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.nariyasuiTtl img {
+  width: 70px;
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: -45px;
+}
+
+.nariyasuiWrapInner {
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.nariyasui {
+  width: 32%;
+  margin:  0 2% 12px 0;
+}
+
+.nariyasui:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.nariyasui .imgBox {
+  height: 134px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .topBox13 {
+    padding: 60px 0;
+    margin: 0 -10px 60px;
+    border-radius: 0;
+  }
+
+  .topBox13Inner {
+    padding: 0 10px;
+  }
+
+  /*
+    nariyasui
+  ---------------------------*/
+
+  .nariyasuiWrap {
+    padding: 40px 12px 10px;
+  }
+
+  .nariyasuiTtl {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .nariyasuiTtl img {
+    left: -10px;
+    top: -25px;
+  }
+
+  .nariyasuiWrapInner {
+    display: block;
+  }
+
+  .nariyasui {
+    width: 100%;
+    padding-top: 10px;
+    margin: 0 auto 10px !important;
+    border-top: 1px dashed #c7c7bb;
+    overflow: hidden;
+  }
+
+  .nariyasui:last-of-type {
+    margin-bottom: 0 !important;
+  }
+
+  .nariyasui .imgBox {
+    width: 84px;
+    height: 64px;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .nariyasui .txt {
+    margin-left: 95px;
+  }
+}
+
+
+/*------------------------------------------
+  topBox14
+------------------------------------------*/
+
+.topBox14 .modTtlBox01 {
+  position: relative;
+}
+
+.topBox14 .modTtlBox01 img {
+  display: block;
+  width: 90px;
+  position: absolute;
+  top: -20px;
+  right: 20%;
+}
+
+.topBox14 .floatWrap > * {
+  margin: 0;
+}
+
+.topBox14 .floatWrap img {
+  order: 2;
+    -webkit-flex-shrink:0;
+  flex-shrink: 0;
+    -webkit-flex-basis: 50%;
+  flex-basis: 50%;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .topBox14 .modTtlBox01 img {
+    right: auto;
+    left: 160px;
+    top: -10px;
+  }
+
+  .topBox14 .floatWrap {
+    display: block;
+  }
+
+  .topBox14 .floatWrap img {
+    width: 100%;
+    display: block;
+    max-width: none;
+    margin: 0 auto 20px;
+  }
+}
+
+
+/*------------------------------------------
+  syoujouList
+------------------------------------------*/
+
+.syoujouListWrap {
+  max-width: 660px;
+  padding: 20px 20px 30px;
+  margin-bottom: 70px;
+  border: 1px dashed #808080;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 #e5e5e5;
+}
+
+.syoujouTtl {
+  color: #808080;
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.syoujouList {
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.syoujouList li {
+  color: #808080;
+  font-size: 15px;
+  font-weight: bold;
+  width: 49.5%;
+  margin-bottom: 5px;
+  border-left-style: solid;
+  border-left-width: 3px;
+  position: relative;
+}
+
+.syoujouList li a {
+  display: block;
+  height: 100%;
+  padding: 5px 20px 3px 10px;
+  background: #ecece6;
+}
+
+.syoujouList li i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 6px;
+  margin: auto;
+  height: 12px;
+  font-size: 13px;
+}
+
+.syoujouList li:nth-of-type(1) {
+  border-left-color: #7e8fc3;
+}
+.syoujouList li:nth-of-type(1) i {
+  color: #7e8fc3;
+}
+.syoujouList li:nth-of-type(2) {
+  border-left-color: #ac7fc4;
+}
+.syoujouList li:nth-of-type(2) i {
+  color: #ac7fc4;
+}
+.syoujouList li:nth-of-type(3) {
+  border-left-color: #e081bb;
+}
+.syoujouList li:nth-of-type(3) i {
+  color: #e081bb;
+}
+.syoujouList li:nth-of-type(4) {
+  border-left-color: #e69c83;
+}
+.syoujouList li:nth-of-type(4) i {
+  color: #e69c83;
+}
+.syoujouList li:nth-of-type(5) {
+  border-left-color: #dbda87;
+}
+.syoujouList li:nth-of-type(5) i {
+  color: #dbda87;
+}
+.syoujouList li:nth-of-type(6) {
+  border-left-color: #8ec780;
+}
+.syoujouList li:nth-of-type(6) i {
+  color: #8ec780;
+}
+.syoujouList li:nth-of-type(7) {
+  border-left-color: #8acbe7;
+}
+.syoujouList li:nth-of-type(7) i {
+  color: #8acbe7;
+}
+.syoujouList li:nth-of-type(8) {
+  border-left-color: #ee8788;
+}
+.syoujouList li:nth-of-type(8) i {
+  color: #ee8788;
+}
+
+@media screen and (max-width: 768px) {
+  .syoujouListWrap {
+    max-width: none;
+    padding: 20px 15px 13px;
+    margin-bottom: 90px;
+  }
+
+  .syoujouTtl {
+    font-size: 18px;
+  }
+
+  .syoujouList {
+    display: block;
+  }
+
+  .syoujouList li {
+    width: 100%;
+  }
+}
+
+
+/*------------------------------------------
+  202008_改修
+------------------------------------------*/
+.topBox01Inner {
+    padding: 15px 0 30px;
+    /* max-width: 1230px; */
+    background: url(https://www.vasospasm-information.net/wp/wp-content/uploads/bg_top01_pc.png) no-repeat center;
+    background-size: cover;
+}
+.fixedbanner {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .topBox01Inner {
+    padding: 0;
+    background: none;
+  }
+  .fixedbanner {
+     display: block;
+     position: fixed;
+     bottom: 0;
+  }
+}
